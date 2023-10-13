@@ -190,4 +190,7 @@ html {
     .card_content p {
         font-size: 13px;
     }
+    .left,.right {
+        display: none;
+    }
 }
