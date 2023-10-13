@@ -3,6 +3,7 @@ import './MainLanding.css'
 import logo from '../../../public/images/ACM JEC Logo.png'
 import SessionCard from './SessionCard'
 import grid from '../../../public/images/grid.png'
+import lines from '../../../public/images/lines.png'
 
 const MainLanding = () => {
   return (
@@ -10,8 +11,14 @@ const MainLanding = () => {
       <img src={grid} alt="" className="grid" />
       <img src={logo} alt="" className='logo'/>
       <div className="content">
-        <h3>UNLOCK YOUR POTENTIAL WITH</h3>
-        <h1><span>ACM JEC</span> STUDENT'S CHAPTER</h1>
+        <div className="temp">
+          <img src={lines} alt="" className="left" />
+          <div className="temp1">
+          <h3>UNLOCK YOUR POTENTIAL WITH</h3>
+          <h1><span>ACM JEC</span> STUDENT'S CHAPTER</h1>
+          </div>
+          <img src={lines} alt="" className="right" />
+        </div>
         <h2>YOUR GATEWAY TO TECH EXCELLENCE</h2>
       </div>
 
@@ -22,10 +29,6 @@ const MainLanding = () => {
 
       <div className="learnmore">
         <button>Learn More</button>
-      </div>
-
-      <div className="updates">
-        <h1></h1>
       </div>
 
     </div>
