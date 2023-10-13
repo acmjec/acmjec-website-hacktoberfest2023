@@ -3,6 +3,7 @@ import './MainLanding.css'
 import logo from '../../../public/images/ACM JEC Logo.png'
 import SessionCard from './SessionCard'
 import grid from '../../../public/images/grid.png'
+import JoinUsCards from '../why_join_us/JoinUsCards'
 
 const MainLanding = () => {
   return (
@@ -22,10 +23,6 @@ const MainLanding = () => {
 
       <div className="learnmore">
         <button>Learn More</button>
-      </div>
-
-      <div className="updates">
-        <h1></h1>
       </div>
 
     </div>
