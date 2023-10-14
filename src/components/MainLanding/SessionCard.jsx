@@ -3,7 +3,7 @@ import React from 'react'
 const SessionCard = ({h2,p,c1,c2}) => {
   return (
     <div className="sess_main">
-    <div className='sess_card'>
+    <div className='sess_card md:w-96 md:h-32 lg:'>
       <div className="box" style={{background: `linear-gradient(90deg,${c1},${c2})`}}></div>
       <div className="card_content">
         <h2>{h2}</h2>
