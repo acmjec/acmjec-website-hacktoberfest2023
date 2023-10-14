@@ -34,7 +34,7 @@ function JoinUs() {
 
     <p className='h-9 text-center mb-8 px-4  text-xs md:text-sm lg:text-lg text-white font-[Montserrat]'>Become a part of the world's largest scientific and educational computing society.</p>
 
-    <div className='flex justify-center mt-8 md:mt-auto'>
+    <div className='flex justify-center mt-8 lg:-mx-12 md:mt-auto'>
     <div 
     className="justify-center justify-items-center container xl:w-4/5 lg:w-11/12  w-8/12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 
     " style={{position: "static", filter: "opacity(1)", marginTop: "6rem"}}>
