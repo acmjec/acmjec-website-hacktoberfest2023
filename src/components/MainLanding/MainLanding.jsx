@@ -15,7 +15,7 @@ const MainLanding = () => {
           <img src={lines} alt="" className="left md:w-28 lg:w-48 xl:w-72" />
           <div className="temp1">
           <h3 className='px-4 text-lg md:text-2xl lg:text-3xl'>UNLOCK YOUR POTENTIAL WITH</h3>
-          <h1 className='xl:text-8xl md:text-6xl lg:text-7xl xxl:text-9xl'><span>ACM JEC</span> STUDENT'S CHAPTER</h1>
+          <h1 className='xl:text-8xl md:text-6xl lg:text-7xl xxl:text-9xl'><span>ACM JEC</span> STUDENT'S <div className="text-center">CHAPTER</div></h1>
           </div>
           <img src={lines} alt="" className="right md:w-28 lg:w-48 xl:w-72"  />
         </div>
