@@ -1,0 +1,105 @@
+body{
+    font-family: Montserrat;
+}
+
+
+/* Style for the header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-button {
+    float: left;
+    width: 97px;
+height: 37px;
+font-size: 18px;
+font-weight: 400;
+display: flex;
+margin-left: 5px;
+align-items: center;
+}
+
+svg{
+    margin-right: 12px;
+}
+
+.right-button {
+    float: right;
+    width: 97px;
+height: 37px;
+font-size: 18px;
+font-weight: 400;
+}
+
+/* Center the div both horizontally and vertically */
+.centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FFFEFE;
+}
+
+.centered-div h2 {
+    color: black;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.caution{
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.options {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FFFEFE;
+}
+
+/* Style for the buttons */
+.image-button {
+    width: 293px;
+    height: 55px;
+    background-color: #F1F1F1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: 25px;
+    padding-right: 50px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.image-button img {
+    width: 32px;
+    height: 32px;
+    margin-right: 60px;
+    margin-left: 6px;
+}
+
+.other{
+    width: 150px;
+height: 37px;
+margin-left: 125px;
+margin-top: 10px;
+}
