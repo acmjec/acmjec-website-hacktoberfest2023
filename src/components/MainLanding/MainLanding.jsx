@@ -8,7 +8,7 @@ import lines from '../../../public/images/lines.png'
 const MainLanding = () => {
   return (
     <div className='main w-full bg-black'>
-      <img src={grid} alt="" className="grid" />
+      <img src={grid} alt="" className="grid" />  
       <img src={logo} alt="" className='logo'/>
       <div className="content">
         <div className="temp">
