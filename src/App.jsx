@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="bg-black">
       {/* <Navbar /> */}
-      {/* <Signup /> */}
       <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />}/>
