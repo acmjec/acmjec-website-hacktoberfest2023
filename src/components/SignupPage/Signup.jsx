@@ -7,6 +7,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 
 const Signup = () => {
 
+  const { loginWithRedirect } = useAuth0();  // destructuring auth methods.
 
   return (
     
@@ -29,7 +30,7 @@ const Signup = () => {
             understood <strong style={{"font-weight": "700"}}>Privacy Policy</strong>
           </p>
           <div className="options">
-            <button className="image-button">
+            <button className="image-button" onClick={() => loginWithRedirect()}>
               <img src={google} alt="google" />
               <strong style={{"font-weight": "700"}}>
               Continue with Google </strong>
@@ -39,7 +40,7 @@ const Signup = () => {
               <strong style={{"font-weight": "700"}}>
               Continue with Apple</strong>
             </button>
-            <button className="image-button">
+            <button className="image-button"  onClick={() => loginWithRedirect()}>
               <img src={github} alt="github" />
               <strong style={{"font-weight": "700"}}>
               Continue with Github</strong>
