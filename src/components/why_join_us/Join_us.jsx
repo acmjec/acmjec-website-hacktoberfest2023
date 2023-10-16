@@ -29,7 +29,7 @@ function JoinUs() {
         }
     ];
   return (
-    <div className='h-screen' >
+    <div className='h-screen mb-32' >
     <h1 className='text-5xl md:text-8xl pt-10 text-center text-transparent font-[Bayon] bg-clip-text bg-gradient-to-r from-[#FCFF73] from-30% to-70% to-[#0085FF]'>WHY JOIN US</h1>
 
     <p className='h-9 text-center mb-8 px-4  text-xs md:text-sm lg:text-lg text-white font-[Montserrat]'>Become a part of the world's largest scientific and educational computing society.</p>
