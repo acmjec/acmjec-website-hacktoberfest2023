@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import LandingPage from "./components/LandingPage";
-import Spinner from "./components/Spinner/Spinner";
-import JoinUs from "./components/why_join_us/Join_us";
 
 function App() {
 
@@ -18,7 +16,7 @@ function App() {
   return (
     <div className="bg-black">
       {/* <Navbar /> */}
-      {isLoading ? <Spinner /> : <LandingPage />}
+      <LandingPage />
     </div>
   );
 }
