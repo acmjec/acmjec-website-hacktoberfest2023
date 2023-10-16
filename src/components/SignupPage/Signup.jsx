@@ -3,8 +3,12 @@ import "./Signup.css";
 import google from "../../../public/images/google.png";
 import github from "../../../public/images/github.png";
 import apple from "../../../public/images/apple.png";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const Signup = () => {
+
+  const { loginWithRedirect } = useAuth0();  // destructuring auth methods.
+
   return (
     
       <div className="main w-full bg-white">
@@ -18,32 +22,32 @@ const Signup = () => {
         </div>
         <div className="centered-div">
           <h2>
-            <strong style={{"font-weight": "700"}}>Create Your Account</strong>
+            <strong style={{"fontWeight": "700"}}>Create Your Account</strong>
           </h2>
           <p className="caution">
             By creating an account you agree to the
-            <strong style={{"font-weight": "700"}}> Terms & Conditions</strong> <br /> and have read and
-            understood <strong style={{"font-weight": "700"}}>Privacy Policy</strong>
+            <strong style={{"fontWeight": "700"}}> Terms & Conditions</strong> <br /> and have read and
+            understood <strong style={{"fontWeight": "700"}}>Privacy Policy</strong>
           </p>
           <div className="options">
-            <button className="image-button">
+            <button className="image-button" onClick={() => loginWithRedirect()}>
               <img src={google} alt="google" />
-              <strong style={{"font-weight": "700"}}>
+              <strong style={{"fontWeight": "700"}}>
               Continue with Google </strong>
             </button>
             <button className="image-button">
               <img src={apple} alt="apple" />
-              <strong style={{"font-weight": "700"}}>
+              <strong style={{"fontWeight": "700"}}>
               Continue with Apple</strong>
             </button>
-            <button className="image-button">
+            <button className="image-button"  onClick={() => loginWithRedirect()}>
               <img src={github} alt="github" />
-              <strong style={{"font-weight": "700"}}>
+              <strong style={{"fontWeight": "700"}}>
               Continue with Github</strong>
             </button>
           </div>
           <p className="other">
-            <strong style={{"font-weight": "700", "font-size": "14px"}}>OTHER OPTIONS</strong>
+            <strong style={{"fontWeight": "700", "fontSize": "14px"}}>OTHER OPTIONS</strong>
           </p>
         </div>
       </div>
