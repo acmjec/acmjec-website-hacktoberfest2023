@@ -8,6 +8,20 @@ import { useAuth0 } from '@auth0/auth0-react'
 
 const MainLanding = () => {
 
+  const { user, isAuthenticated ,isLoading } = useAuth0();
+
+  const getDetails = () => {
+    if (user) {
+      const { name, email } = user;
+      alert(`Hello: ${name} \nYour login ID : ${email}`);
+    }
+  };
+  
+  useEffect(() => {
+    if (isAuthenticated && user && !isLoading) {
+      getDetails();
+    }
+  }, [isAuthenticated]);
 
   return (
     <div className='main w-full bg-black'>
