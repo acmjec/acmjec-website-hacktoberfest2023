@@ -1,7 +1,6 @@
 import React from 'react'
 import MainLanding from './MainLanding/MainLanding'
 import Join_us from './why_join_us/Join_us'
-import MeetTeam from './MeetOurTeam/MeetTeam'
 import Footer from './Footer/Footer'
 
 function LandingPage() {
