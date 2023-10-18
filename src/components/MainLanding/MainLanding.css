@@ -107,6 +107,8 @@ html {
     align-items: center;
     border: 1px solid white;
     cursor: pointer;
+    padding: 20px;
+    gap: 10px;
 }
 .box {
     width: 80px;
@@ -187,13 +189,10 @@ html {
     .left,.right {
         display: none;
     }
-<<<<<<< HEAD
-=======
 }
 
 @media screen and (min-width: 1441px) {
     .left,.right{
         width: 21rem !important;
     }
->>>>>>> b34bcd25a33c1f8ee44f26226008e9a242231f08
 }
