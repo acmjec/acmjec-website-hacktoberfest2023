@@ -1,0 +1,108 @@
+.mot_main {
+    background: linear-gradient(45deg,rgba(0, 194, 255, 1),rgba(255, 245, 0, 1));
+    margin: 40px;
+    border-radius: 40px;
+    padding: 2px;
+    margin-top: 150px;
+}
+.mot_temp {
+    position: relative;
+    border-radius: 40px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: black;
+}
+.ellipse {
+    /* width: 460px; */
+    width: 28.75rem;
+    height: 28.75rem;
+    border-radius: 230px 20px;
+    background: linear-gradient(45deg,rgba(0, 178, 255, 1),rgba(27, 242, 228, 1),rgba(27, 242, 228, 1),rgba(0, 163, 255, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ellipse2 {
+    border-radius: 20px 230px;
+}
+.circle {
+    /* width: 377px; */
+    width: 23.56rem;
+    height: 23.56rem;
+    border-radius: 100%;
+    background: radial-gradient(rgba(250, 255, 0, 1),rgba(0, 240, 255, 1),rgba(0, 240, 255, 1));
+    box-shadow: inset rgba(27, 27, 29, 1) 0 0 0 10px;
+    box-shadow: inset rgba(0, 0, 0, 0.396) 0 0 8px 10px;
+}
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.first_content {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first_content h3 {
+    color: white;
+    font-size: 20px;
+}
+.first_content h1 {
+    font-size: 38px;
+}
+.first_content h2 {
+    font-size: 28px;
+}
+.first_content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.third_content {
+    text-align: end;
+    align-items: flex-end;
+}
+.mot_temp > h1 {
+    font-size: 100px;
+    background: linear-gradient(90deg,rgba(0, 87, 255, 1),rgba(65, 108, 219, 1),rgba(37, 119, 195, 1),rgba(70, 199, 255, 1),rgba(157, 226, 255, 1));
+    background-clip: text;
+    color: transparent;
+    padding: 40px 0;
+    margin: auto;
+    font-weight: 700;
+}
+.git {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 238px;
+    height: 71px;
+    background-color: rgba(34, 37, 38, 1);
+    border-radius: 40px;
+}
+.git p {
+    margin-right: 30px;
+}
+.git>div{
+    width: 75px;
+    height: 71px;
+    background: linear-gradient(90deg,rgba(0, 163, 255, 1),rgba(56, 161, 187, 1),rgba(252, 246, 113, 1));
+    border-radius: 40px;
+}
+.read_more {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 277px;
+    height: 78px;
+    border-radius: 101px;
+    background-color: rgba(30, 30, 45, 1);
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,50%)
+}
