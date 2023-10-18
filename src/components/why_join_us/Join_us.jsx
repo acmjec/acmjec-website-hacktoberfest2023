@@ -29,12 +29,12 @@ function JoinUs() {
         }
     ];
   return (
-    <div className='h-screen' >
+    <div className='h-screen mb-36' >
     <h1 className='text-5xl md:text-8xl pt-10 text-center text-transparent font-[Bayon] bg-clip-text bg-gradient-to-r from-[#FCFF73] from-30% to-70% to-[#0085FF]'>WHY JOIN US</h1>
 
-    <p className='h-9 text-center mb-20 px-4  text-xs md:text-sm lg:text-lg text-white font-[Montserrat]'>Become a part of the world's largest scientific and educational computing society.</p>
+    <p className='h-9 text-center mb-8 px-4  text-xs md:text-sm lg:text-lg text-white font-[Montserrat]'>Become a part of the world's largest scientific and educational computing society.</p>
 
-    <div className='flex justify-center mt-8 md:mt-auto'>
+    <div className='flex justify-center mt-8 lg:-mx-12 md:mt-auto'>
     <div 
     className="justify-center justify-items-center container xl:w-4/5 lg:w-11/12  w-8/12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 
     " style={{position: "static", filter: "opacity(1)", marginTop: "6rem"}}>
