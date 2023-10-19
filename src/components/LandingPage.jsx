@@ -7,7 +7,7 @@ function LandingPage() {
   return (
     <div className='text-blue-300 text-2xl overflow-x-hidden overflow-y-hidden'>
       <MainLanding />
-      <Join_us />
+      {/* <Join_us /> */}
       <Footer/>
     </div>
   )
