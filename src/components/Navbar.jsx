@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useRef } from "react";
 import styles from "./Navbar.module.css";
+import logo from "../../public/images/mainLogo.png";
 
 // window.onload = function(){
   
@@ -20,7 +21,7 @@ function Navbar() {
       <nav className={`${styles.container} mt-5`}>
         <div className={styles.wrapper}>
           <div className={styles.image}>
-            <img src="../../public/images/mainLogo.png" alt="" />
+            <img src={logo} alt="" />
           </div>
 
           <div className={styles.content}>
