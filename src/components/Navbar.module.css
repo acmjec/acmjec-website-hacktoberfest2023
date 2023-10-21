@@ -21,7 +21,9 @@ a {
   right: 0;
   width: auto;
   display: flex;
+
   justify-content: space-evenly;
+
   align-items: center;
   /* background-color: #363333; */
 }
@@ -32,6 +34,7 @@ a {
   border-radius: 2rem;
   display: flex;
   align-items: center;
+
   padding: 2px;
 }
 .content a {
@@ -44,6 +47,9 @@ a {
 .content a:hover {
   background-color: aqua;
   color: black;
+}
+.content a:hover {
+  background-color: aqua;
 }
 .search_space,
 .search_space_a {
@@ -141,6 +147,7 @@ a {
   display: flex;
   left: 0;
 }
+
 
 @media screen and (max-width: 1100px) {
   .content {
