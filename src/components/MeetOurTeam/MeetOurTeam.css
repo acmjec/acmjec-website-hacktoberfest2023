@@ -1,0 +1,56 @@
+.meet-our-team{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}
+
+.team-heading{
+    text-align: center;
+}
+
+.team-card-section{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 23% 23% 23% 23% ;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 30px;
+    /* background-color: purple; */
+    padding-left: 4vw;
+    margin-bottom: 100px;
+}
+
+
+  @media (min-width: 1000px) and (max-width: 1300px) {
+      .team-card-section{
+          grid-template-columns: 23% 23% 23%;
+          column-gap:100px;
+      }
+  }
+  @media (min-width: 750px ) and (max-width: 1000px) {
+      .team-card-section{
+          grid-template-columns: 23% 23%;
+          column-gap:200px;
+      }
+      .meet-our-team{
+        margin-top: 300px;
+      }
+  }
+  
+  /* Styles for mobile devices */
+  @media (max-width: 750px) {
+    .team-card-section{
+        grid-template-columns: 23%;
+        column-gap:100px;
+    }
+    .meet-our-team{
+        margin-top: 120vh;
+        padding-left: 20px;
+    }
+  }
+  
+  
+  
+  
+  
+  
