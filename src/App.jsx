@@ -19,8 +19,8 @@ function App() {
 
   return (
     <div className="bg-black">
-      {/* <Navbar /> */}
-      {/* {isLoading ? <Spinner /> : <LandingPage />} */}
+      <Navbar />
+      {isLoading ? <Spinner /> : <LandingPage />}
       <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />}/>
