@@ -4,7 +4,8 @@ import LandingPage from "./components/LandingPage";
 import Spinner from "./components/Spinner/Spinner";
 import JoinUs from "./components/why_join_us/Join_us";
 import Signup from "./components/SignupPage/Signup";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Event from "./components/Events/Events.jsx";
 
 function App() {
   const [isLoading, setloading] = useState(true);
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<LandingPage />}/>
         <Route path="/signup" element={<Signup />} />
+        <Route path="/event" element={<Event />} />
       </Routes>
     </Router>
 
