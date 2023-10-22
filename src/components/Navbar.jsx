@@ -24,9 +24,6 @@ function Navbar() {
             <img src={logo} alt="" />
           </div>
 
-
-          <div className={styles.content} >
-
           <div className={styles.content}>
 
             <a href="#">Home</a>
