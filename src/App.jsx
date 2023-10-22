@@ -6,7 +6,6 @@ import JoinUs from "./components/why_join_us/Join_us";
 import Signup from "./components/SignupPage/Signup";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Event from "./components/Events/Events.jsx";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [isLoading, setloading] = useState(true);

@@ -39,7 +39,6 @@ html {
 .content h1 {
     color: white;
     font-family: 'Bebas Neue';
-
 }
 .content h1 span {
     background: linear-gradient(90deg,yellow,rgba(0, 227, 241, 1));
@@ -73,7 +72,7 @@ html {
     left: 0;
     width: 100%;
     height: 100vh;
-    filter: opacity(0.15);
+    filter: opacity(0.1);
 }
 .temp {
     display: flex;
