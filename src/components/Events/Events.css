@@ -1,0 +1,261 @@
+.evnt_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+.evnt_main {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(rgba(4, 77, 77, 0.387),black);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.evnt_card {
+    position: relative;
+    width: 519px;
+    height: 580px;
+    background: linear-gradient(rgba(255, 255, 255, 0.102),rgba(255, 255, 255, 0.093));
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+.evnt_card > img {
+    width: 440px;
+    height: 340px;
+    border-radius: 16px;
+}
+.evnt_card > div {
+    width: 440px;
+    color: white;
+}
+.evnt_card > div h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.evnt_card > button {
+    position: absolute;
+    width: 236px;
+    height: 46px;
+    border-radius: 40px;
+    background: linear-gradient(90deg,rgba(1, 179, 255, 1),rgba(56, 161, 187, 1),rgba(250, 255, 0, 1));
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-weight: 700;
+}
+.all_about_event {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all_about_event h1 {
+    /* font-family: 'Bebas Neue'; */
+    font-size: 80px;
+    font-weight: 900;
+    background: linear-gradient(90deg,rgba(250, 255, 0, 1),rgba(56, 161, 187, 1),rgba(1, 179, 255, 1));
+    background-clip: text;
+    color: transparent;
+    display: flex;
+}
+.all_about_event h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+.all_about_event p {
+    color: aliceblue;
+    text-align: center;
+    padding: 0 100px;
+}
+.evnt_main > img {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    filter: opacity(0.2);
+}
+.upcoming_events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.upcoming_events > h1 {
+    font-size: 120px;
+    background: linear-gradient(90deg,rgba(250, 255, 0, 1),rgba(0, 240, 255, 1));
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+}
+.upcoming_events_cont {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.upcoming_events_cont > div {
+    width: 384px;
+    height: 96px;
+    clip-path: polygon(100% 0, 100% 48%, 85% 100%, 0 100%, 0 0);
+    background: linear-gradient(45deg,rgba(250, 255, 0, 1),rgba(0, 240, 255, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.upcoming_event_card {
+    width: 382px;
+    height: 94px;
+    clip-path: polygon(100% 0, 100% 48%, 85% 100%, 0 100%, 0 0);
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    /* justify-content: space-evenly; */
+}
+.ue_circle {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border-radius: 100%;
+}
+.ue_content h1 {
+    font-size: 20px;
+    color: white;
+}
+.ue_content p {
+    font-size: 15px;
+    color: white;
+}
+.upcoming_event_card > h2 {
+    font-size: 20px;
+    color: rgba(21, 191, 253, 1);
+    text-decoration: underline;
+    margin-left: 30px;
+}
+.ue_btn {
+    width: 214px;
+    height: 60px;
+    border-radius: 60px;
+    background: linear-gradient(270deg,rgba(250, 255, 0, 1),rgba(56, 161, 187, 1),rgba(0, 204, 255, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ue_btn button {
+    width: 210px;
+    height: 56px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border-radius: 60px;
+}
+
+/* ////////////////////////////////////// */
+
+@media screen and (max-width: 600px) {
+    .evnt_cont {
+        gap: 100px;
+    }
+    .evnt_main {
+        margin-top: 40px;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .evnt_card {
+        width: 250px;
+        height: 300px;
+        border-radius: 22px;
+        margin: 20px 0;
+    }
+    .evnt_card > img {
+        width: 220px;
+        height: 160px;
+        border-radius: 16px;
+    }
+    .evnt_card > div {
+        width: 220px;
+    }
+    .evnt_card > div h1 {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .evnt_card > div h3 {
+        font-size: 10px;
+    }
+    .evnt_card > button {
+        width: 100px;
+        height: 25px;
+        border-radius: 30px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+    .all_about_event h1 {
+        font-size: 30px;
+    }
+    .all_about_event h2 {
+        font-size: 30px;
+    }
+    .all_about_event p {
+        padding: 0 20px;
+    }
+    .upcoming_events {
+        gap: 40px;
+    }
+    .upcoming_events > h1 {
+        font-size: 32px;
+    }
+    .upcoming_events_cont {
+        max-width:90%;
+        gap: 20px;
+    }
+    .upcoming_events_cont > div {
+        width: 300px;
+        height: 70px;
+    }
+    .upcoming_event_card {
+        width: 298px;
+        height: 68px;
+        gap: 20px;
+        padding: 20px;
+    }
+    .ue_circle {
+        width: 30px;
+        height: 30px;
+    }
+    .ue_content h1 {
+        font-size: 12px;
+    }
+    .ue_content p {
+        font-size: 8px;
+    }
+    .upcoming_event_card > h2 {
+        font-size: 10px;
+    }
+    .ue_btn {
+        width: 150px;
+        height: 40px;
+        border-radius: 40px;
+    }
+    .ue_btn button {
+        width: 146px;
+        height: 36px;
+        font-size: 15px;
+        border-radius: 40px;
+    }
+}
