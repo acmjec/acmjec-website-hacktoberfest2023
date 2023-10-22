@@ -6,22 +6,22 @@ import JoinUs from "./components/why_join_us/Join_us";
 import Signup from "./components/SignupPage/Signup";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Event from "./components/Events/Events.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-
   const [isLoading, setloading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setloading(false);
-    }, 3000);
-  }, [])
-
+    }, 1500);
+  }, []);
 
   return (
     <div className="bg-black">
-      {/* <Navbar /> */}
-      {/* {isLoading ? <Spinner /> : <LandingPage />} */}
+
+      <Navbar />
+      {isLoading ? <Spinner /> : <LandingPage />}
       <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />}/>
@@ -29,6 +29,19 @@ function App() {
         <Route path="/event" element={<Event />} />
       </Routes>
     </Router>
+
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route exact path="/" element={<LandingPage className="z-[-5]" />} />
+            <Route path="/signup" element={<Signup />} />
+          </Routes>
+        </Router>
+      )}
+
     </div>
   );
 }
