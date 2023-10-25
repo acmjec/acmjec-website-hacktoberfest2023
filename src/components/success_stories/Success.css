@@ -1,0 +1,48 @@
+body{
+    font-family: Montserrat;
+}
+
+.success-container{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    margin-top:-300px;
+}
+
+.success-text{
+    font-weight: 700;
+    color: #ffffff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.success-main-text{
+    font-size: 50px;
+    line-height: 60.95px;
+    font-weight:700;
+}
+.success-sub-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 700px;
+    margin-left: 30px;
+}
+.success-sub-text :first-child{
+    margin: auto;
+}
+.success-sub-text :last-child{
+    max-width: 500px;
+    margin: auto;
+}
+.success-button-div{
+    margin: auto;
+}
+
+.success-button-div button:hover{
+    background-color: rgb(92, 92, 88);
+}
+.success-component{
+    margin: auto;
+}

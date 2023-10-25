@@ -21,11 +21,11 @@ function App() {
       <Navbar />
       {isLoading ? <Spinner /> : <LandingPage />}
       <Router>
-      <Routes>
-        <Route exact path="/" element={<LandingPage />}/>
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
-    </Router>
+        <Routes>
+          <Route exact path="/" element={<LandingPage />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </Router>
 
       {isLoading ? (
         <Spinner />
