@@ -17,21 +17,11 @@ function App() {
 
   return (
     <div className="bg-black">
-
       <Navbar />
-      {isLoading ? <Spinner /> : <LandingPage />}
-      <Router>
-      <Routes>
-        <Route exact path="/" element={<LandingPage />}/>
-        <Route path="/signup" element={<Signup />} />
-      </Routes>
-    </Router>
-
       {isLoading ? (
         <Spinner />
       ) : (
         <Router>
-          <Navbar />
           <Routes>
             <Route exact path="/" element={<LandingPage className="z-[-5]" />} />
             <Route path="/signup" element={<Signup />} />
