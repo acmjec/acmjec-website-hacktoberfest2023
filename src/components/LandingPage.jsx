@@ -3,6 +3,7 @@ import MainLanding from './MainLanding/MainLanding'
 import Join_us from './why_join_us/Join_us'
 import MeetOurTeam from './MeetOurTeam/MeetOurTeam'
 import Footer from './Footer/Footer'
+import Category from './CategorySection/Category'
 
 function LandingPage() {
   return (
@@ -11,6 +12,7 @@ function LandingPage() {
       <Join_us />
       <MeetOurTeam />
       {/* <Join_us /> */}
+      <Category/>
       <Footer/>
     </div>
   )
